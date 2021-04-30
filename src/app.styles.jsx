@@ -15,6 +15,7 @@ export const AppContainer = styled.div`
 export const AppHeader = styled.h1`
     margin-top: 0;
     flex-grow:0;
+    text-align: center;
 `;
 
 export const CloseButton = styled.div`

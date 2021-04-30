@@ -32,7 +32,7 @@ const AppComponent = () => {
     return (
         <AppContainer>
             <CloseButton onClick={handleClose}>x</CloseButton>
-            <AppHeader>The Funnest Quiz Ever!</AppHeader>
+            <AppHeader>FoxBet Sportsbook Quiz</AppHeader>
             { !finished ?
                 <Questions
                     questions={questions}

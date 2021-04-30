@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 export const QuestionContainer = styled.div``;
 
-export const QuestionHeader = styled.h2``;
+export const QuestionHeader = styled.h2`
+    text-align: center;
+`;
 
 export const AnswersContainer = styled.div`
     display: flex;

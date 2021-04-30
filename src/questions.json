@@ -1,24 +1,25 @@
 [
   {
     "id" : 1,
-    "question": "What is a dog?",
+    "question": "Which of these drivers will have the fastest lap by the end of Stage 2?",
     "answers":  [
-      "A good boy?",
-      "The best boy?",
-      "God on his day off",
-      "A poop machine",
-      "All of the above"
+      "Ryan Blaney",
+      "Martin Truex Jr",
+      "Chase Elliot",
+      "Denny Hamlin",
+      "Joey Logano",
+      "Kevin Harvick"
     ],
     "chosen" : null
   },
   {
     "id" : 2,
-    "question": "What is 2 plus 5?",
+    "question": "Of the 4 winners this season, who will have the best finish in Stage 2?",
     "answers": [
-      "7",
-      "8",
-      "9",
-      "10"
+      "Christopher Bell",
+      "William Byron",
+      "Kyle Larson",
+      "Michael McDowell"
     ],
     "chosen" : null
   }

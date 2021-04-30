@@ -7,6 +7,14 @@ export const DownloadAppContainer = styled.div`
     flex-grow: 1;
 `;
 
+export const DownloadAppHeader = styled.h2`
+    text-align: center;
+`;
+
+export const DownloadAppContent = styled.p`
+    text-align: center;
+`;
+
 export const DownloadAppButton = styled.a`
     display: block;
     background-color: #333;

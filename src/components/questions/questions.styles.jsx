@@ -22,4 +22,8 @@ export const QuestionsButton = styled.button`
     font-size: 16px;
     border: none;
     padding: 10px 20px;
+    :disabled {
+        background-color: #aaa;
+        color: #ccc;
+    }
 `;

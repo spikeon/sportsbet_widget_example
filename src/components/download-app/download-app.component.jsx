@@ -1,11 +1,16 @@
-import {DownloadAppButton, DownloadAppContainer} from "./download-app.styles";
+import {
+    DownloadAppButton,
+    DownloadAppContainer,
+    DownloadAppContent,
+    DownloadAppHeader
+} from "./download-app.styles";
 
 export const DownloadApp = ({close}) => (
     <DownloadAppContainer>
-        <h2>Continue on the SportsBet App!</h2>
-        <p>
+        <DownloadAppHeader>Continue on the SportsBet App!</DownloadAppHeader>
+        <DownloadAppContent>
             In order to enter the contest, you must download the mobile app and create an account.
-        </p>
+        </DownloadAppContent>
         <DownloadAppButton
             onClick={(event) => {event.preventDefault(); close();}}
             >Download App To Continue!</DownloadAppButton>
